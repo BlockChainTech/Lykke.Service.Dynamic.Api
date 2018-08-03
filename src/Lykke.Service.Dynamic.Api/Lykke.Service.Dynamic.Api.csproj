@@ -47,6 +47,7 @@
   </ItemGroup>
   
   <ItemGroup>
+    <ProjectReference Include="..\..\NBitcoin.Dynamic\NBitcoinDynamic.csproj" />
     <ProjectReference Include="..\Lykke.Service.Dynamic.Api.AzureRepositories\Lykke.Service.Dynamic.Api.AzureRepositories.csproj" />
     <ProjectReference Include="..\Lykke.Service.Dynamic.Api.Core\Lykke.Service.Dynamic.Api.Core.csproj" />
     <ProjectReference Include="..\Lykke.Service.Dynamic.Api.Services\Lykke.Service.Dynamic.Api.Services.csproj" />

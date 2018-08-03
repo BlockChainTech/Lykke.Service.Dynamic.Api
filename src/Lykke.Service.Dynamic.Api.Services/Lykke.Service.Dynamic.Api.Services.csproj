@@ -11,10 +11,11 @@
     <PackageReference Include="CsvHelper" Version="3.1.1" />
     <PackageReference Include="Flurl" Version="2.6.0" />
     <PackageReference Include="Flurl.Http" Version="2.0.1" />
-    <PackageReference Include="NBitcoin.Dynamic" Version="1.0.1" />
+    <PackageReference Include="NBitcoin" Version="4.1.1.20" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\NBitcoin.Dynamic\NBitcoinDynamic.csproj" />
     <ProjectReference Include="..\Lykke.Service.Dynamic.Api.Core\Lykke.Service.Dynamic.Api.Core.csproj" />
   </ItemGroup>
 

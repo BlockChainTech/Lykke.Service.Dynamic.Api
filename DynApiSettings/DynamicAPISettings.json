@@ -1,0 +1,20 @@
+{
+  "ServiceUrl": "127.1.1.0",
+  "DynamicApiService": {
+    "Db": {
+      "DataConnString": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=ProductsDb",
+      "LogsConnString": "C:\\Users\\Mark\\Duality\\DynApiLog"
+    },
+    "Network": "Main",
+    "InsightApiUrl": "127.1.1.0",
+    "Fee": "10",
+    "MinConfirmations": "10"
+  },
+  "SlackNotifications": {
+    "AzureQueue": {
+      "ConnectionString": "UseDevelopmentStorage=true",
+      "QueueName" :  "devstoreaccount1"
+    }
+  }
+}
+

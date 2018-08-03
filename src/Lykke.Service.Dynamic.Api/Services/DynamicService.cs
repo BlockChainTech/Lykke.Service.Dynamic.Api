@@ -5,7 +5,7 @@ using Lykke.Service.Dynamic.Api.Core.Services;
 using Lykke.Service.Dynamic.Api.Core.Repositories;
 using Lykke.Service.Dynamic.Api.Core.Domain.InsightClient;
 using NBitcoin;
-using NBitcoin.Dynamic;
+//using NBitcoin.;
 using NBitcoin.JsonConverters;
 using NBitcoin.Policy;
 using System;
@@ -35,7 +35,8 @@ namespace Lykke.Service.Dynamic.Api.Services
             decimal fee,
             int minConfirmations)
         {
-            DynamicNetworks.Register();
+            
+            NBitcoinDynamic.DynamicNetworks.Register();
 
             _log = log;
             _dynamicInsightClient = dynamicInsightClient;

@@ -37,6 +37,13 @@ namespace Lykke.Service.Dynamic.Api
             Configuration = builder.Build();
 
             Environment = env;
+
+            //mark schroeder 20180731 added below envrionmental var output for review/testing
+            foreach (var env2 in Configuration.GetChildren())
+            {
+                Console.WriteLine($"{env2.Key}:{ env2.Value}");
+            }
+
         }
 
         public IServiceProvider ConfigureServices(IServiceCollection services)

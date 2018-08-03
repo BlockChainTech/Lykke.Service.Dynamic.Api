@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Service.Dynamic.Api.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Service.Dynamic.Job", "src\Lykke.Service.Dynamic.Job\Lykke.Service.Dynamic.Job.csproj", "{B33864B6-7B5D-46C4-A943-5E70454D4F15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBitcoinDynamic", "NBitcoin.Dynamic\NBitcoinDynamic.csproj", "{67189271-8BAF-4937-9CD5-66A86C32950B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B33864B6-7B5D-46C4-A943-5E70454D4F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B33864B6-7B5D-46C4-A943-5E70454D4F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B33864B6-7B5D-46C4-A943-5E70454D4F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67189271-8BAF-4937-9CD5-66A86C32950B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67189271-8BAF-4937-9CD5-66A86C32950B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67189271-8BAF-4937-9CD5-66A86C32950B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67189271-8BAF-4937-9CD5-66A86C32950B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{2D5F52EC-2A27-4045-81ED-72355E2A6325} = {CC2067D7-1971-47BB-B491-5649EA3C18B2}
 		{A61FFDEE-5725-4650-A788-6E55EE5EFD5B} = {8F9036B1-5106-4C69-B2D2-B78EE52687A0}
 		{2405A5CD-497B-4317-9C78-11050CD18BA6} = {913E94A2-7869-4DDD-8C76-26A3E32A56AA}
+		{67189271-8BAF-4937-9CD5-66A86C32950B} = {CC2067D7-1971-47BB-B491-5649EA3C18B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB496C44-8EAA-4A61-9C02-7AAB4EC16757}
