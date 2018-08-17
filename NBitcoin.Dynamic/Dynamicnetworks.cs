@@ -5,7 +5,7 @@ using System;
 using System.Net;
 using System.Collections.Generic;
 using NBitcoin;
-
+using NBitcoinCrypto;
 
 namespace NBitcoinDynamic
 {
@@ -166,7 +166,7 @@ namespace NBitcoinDynamic
         private static uint256 GetPoWHash(BlockHeader header)
         {
             var headerBytes = header.ToBytes();
-            var h = NBitcoin.Crypto.SCrypt.ComputeDerivedKey(headerBytes, headerBytes, 1024, 1, 1, null, 32);
+            var h = NBitcoinCrypto.Argon2d_Dynamic.Hash(headerBytes);
             return new uint256(h);
         }
 
